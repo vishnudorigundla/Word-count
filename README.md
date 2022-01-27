@@ -30,11 +30,11 @@ Process count+=len(word) End loop.
 
 Print the value of count,which has the number of words in the file.
 
-## PROGRAM:
-
+### PROGRAM:
+~~~
 '''
-Developed by:- D.vishnu vardhan reddy
-Reference Number:- 21005311
+Developed by:- D.vishnu vardhan reddy.
+Reference Number:- 21005311.
 '''
 count =0
 with open('recordTest','r') as test:
@@ -42,6 +42,8 @@ with open('recordTest','r') as test:
         word = i.split()
         count+=len(word)
 print('The number of words in the file',text.name,'are :',count)
+
+~~~
 
 ### OUTPUT:
 
